@@ -1,6 +1,5 @@
 A Node.js + Mongoose + Jest sample project that demonstrates **how to test mongoose operations using Jest with an in-memory database**.
 
->This repo was build as an example for my article [Testing Node.js + Mongoose with an in-memory database](https://dev.to/paulasantamaria/testing-node-js-mongoose-with-an-in-memory-database-32np).
 
 # Dependencies
 What you need to run this project:
@@ -18,10 +17,6 @@ npm install
 ```
 npm test
 ```
-
-# Contribute
-Feel free to contribute to this project either by leaving your comments and suggestions in the Issues section or creating a PR. More and diverse test examples are always useful. Make sure to take a look at Jest docs and the existent examples to avoid repeating.
-
 # Tools
 Main tools used in this project:
 
