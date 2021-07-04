@@ -10,7 +10,7 @@ jobs:
         with:
           node-version: '12'
       - run: yarn install
-      - run: lint
+      - run: yarn lint
       - run: yarn test
       - name: Tests ✅
         if: ${{ success() }}
