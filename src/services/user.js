@@ -22,10 +22,9 @@ module.exports.getById = async (id) => {
     return userModel.findById(id);
 };
 
-
 /**
  * Retrieves all users.
- * 
+ *
 */
 module.exports.getAll = async () => {
     return userModel.find();
