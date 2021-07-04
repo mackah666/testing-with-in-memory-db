@@ -30,9 +30,9 @@ afterEach(async () => {
 /**
  * Remove and close the db and server.
  */
-afterAll(async () => {
-    await dbHandler.closeDatabase();
-});
+// afterAll(async () => {
+//     await dbHandler.closeDatabase();
+// });
 
 /**
  * Product getById test suite.
